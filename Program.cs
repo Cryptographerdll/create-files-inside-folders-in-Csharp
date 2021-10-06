@@ -14,7 +14,7 @@ namespace WriteFile_Fichier
         // How To create A file inside folder and edit it by writing text inside it .
         static void Main(string[] args)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); // Folder has Allready exist .
             string fichier = path + Path.DirectorySeparatorChar + "Fichier" + Path.DirectorySeparatorChar + "khalil.txt";
 
             if(!File.Exists(fichier))
